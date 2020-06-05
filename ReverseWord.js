@@ -1,4 +1,3 @@
-// revisi
 let tugas2 = (param) =>{
     let regex = new RegExp("^([a-zA-Z]{0,})$");
     if (param.match(regex)) {

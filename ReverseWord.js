@@ -8,4 +8,4 @@ let ReverseWord = (param) =>{
     console.log(split)
 }
 }
-tugas2('aku belajar js')
+ReverseWord('aku belajar js')

@@ -1,4 +1,4 @@
-let tugas2 = (param) =>{
+let ReverseWord = (param) =>{
     let regex = new RegExp("^([a-zA-Z]{0,})$");
     if (param.match(regex)) {
         console.log('false')

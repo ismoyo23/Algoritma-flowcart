@@ -1,5 +1,5 @@
 // revisi
-let palindorm = (str)=>{
+let palindormV1 = (str)=>{
     if(str < 1){
         return false;
     }
@@ -14,10 +14,10 @@ let palindorm = (str)=>{
    }
 }
 
-palindorm('malam')
+palindormV1('malam')
 
 // seseuai flowchart
-function reverseString(str) {
+let palindromV2 = (str)=>{
     if (str < 1) {
         console.log('false')
     }
@@ -34,4 +34,4 @@ function reverseString(str) {
     return c;
    }
    
-   reverseString('malam');
+   rpalindromV2('malam');

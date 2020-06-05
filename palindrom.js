@@ -1,7 +1,7 @@
 // revisi
 let palindormV1 = (str)=>{
     let regex = new RegExp("^([a-zA-Z]{0,})$");
-    if(str < 1){
+    if(str.match(regex)){
         return false;
     }
 
@@ -20,7 +20,7 @@ palindormV1('malam')
 // seseuai flowchart
 let palindromV2 = (str)=>{
     let regex = new RegExp("^([a-zA-Z]{0,})$");
-    if (str < 1) {
+    if (str.match(regex)) {
         console.log('false')
     }
     var a = str.split('');;

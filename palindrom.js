@@ -34,4 +34,4 @@ let palindromV2 = (str)=>{
     return c;
    }
    
-   rpalindromV2('malam');
+   palindromV2('malam');

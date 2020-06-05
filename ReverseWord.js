@@ -1,6 +1,6 @@
 let ReverseWord = (param) =>{
  
-    if (param.length) {
+    if (param.length <1) {
         console.log('false')
     }else{
 

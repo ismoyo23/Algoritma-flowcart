@@ -25,6 +25,8 @@ let palindromV2 = (str)=>{
     }
     var a = str.split('');;
     var c = '';
+    // nilai awal ( let i  ) = panjang dari parameter str lalu di kurangi satu, variable i lebih dari 1
+    // auto dicrement
    for (let i = str.length - 1; i >= 0; i--) {
      c = c + a[i];
     }
